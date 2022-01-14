@@ -1,0 +1,32 @@
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link.active-link {
+  text-decoration: underline;
+}
+
+nav {
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

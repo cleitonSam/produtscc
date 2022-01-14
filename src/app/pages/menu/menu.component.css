@@ -1,0 +1,117 @@
+.content {
+  top: 30%;
+  left: 20%;
+  position: absolute;
+}
+.content h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+.content a {
+  text-decoration: none;
+  background-color: #fff;
+  color: var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.content a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.stepBox {
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291e, #ed213a);
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.stepBox h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.stepBox p {
+  font-size: 20px;
+  color: #fff;
+}
+.highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.foodbox {
+  padding: 8px 0px;
+  border-radius: 5px;
+  transition: 0.5s;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 12px;
+  width: 270px;
+}
+.foodbox img {
+  width: 80%;
+  height: 184px;
+
+  object-fit: cover;
+  border-radius: 5px;
+  background: white;
+}
+.foodbox:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.foodbox h1 {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: black;
+}
+.container .foodbox .btn {
+  width: 100%;
+}
+.foodbox .btn button {
+  padding: 10px;
+  width: 100%;
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291e, #ed213a);
+  border: 1px solid crimson;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.viewmorebtn {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.teste {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
